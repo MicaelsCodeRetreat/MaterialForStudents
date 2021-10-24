@@ -1,4 +1,4 @@
-package org.micael.tdd.stack;
+package stack;
 
 public class SimpleStackTest {
 	
