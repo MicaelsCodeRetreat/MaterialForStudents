@@ -4,9 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import account.AccountException;
-import account.AccountImpl;
-
 public class AccountImplTest {
 
 	@Test
@@ -30,4 +27,5 @@ public class AccountImplTest {
         assertEquals("Balance after withdraw should be " + expectedBalance, expectedBalance, actualBalance);
     }
     
+    // TODO: Add more test to cover different aspects of an Account.
 }
