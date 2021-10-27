@@ -5,8 +5,6 @@ package account;
  */
 public class Transaction {
 
-    private static final int HASH_CONSTANT = 37;
-
     public static final String DEPOSIT = "deposit";
     public static final String WITHDRAW = "withdraw";
 

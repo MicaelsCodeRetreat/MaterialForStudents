@@ -5,13 +5,13 @@ import java.util.List;
 
 public class AccountImpl implements IAccount {
 
+	public static final int SUPERVISION_TRESHOLD = 100000;
+	
     private long id;
     private String ownerName;
     private int balance;
     private List<Transaction> transactions;
-
     private ISupervisor supervisor;
-    public static final int SUPERVISION_TRESHOLD = 100000;
 
     public AccountImpl(long id, String owner) {
         this.id = id;
